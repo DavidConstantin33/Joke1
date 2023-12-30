@@ -1,0 +1,48 @@
+body {
+    overflow-x: hidden;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+form {
+    padding: 1.5em;
+    width: 400px;
+    background-color: blue;
+    border-radius: 24px;
+}
+
+@media screen and (max-width: 900px) {
+    .form {
+        width: 200px;
+    }
+}
+
+form p {
+    background-color: white;
+    border-radius: 12px;
+}
+
+input {
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+label {
+    padding: 10px;
+    background-color: white;
+    border-radius: 24px;
+}
+
+button {
+    padding: 12px;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+#results {
+    padding: 100px;
+}
